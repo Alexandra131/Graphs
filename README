@@ -1,0 +1,16 @@
+Primul task:
+pentru primul task am citit pe rand informatiile din fieiser, prima data numarul de noduri si muchiile
+iar apoi am citit cele doue noduri urmate de costul dintre ele, de fiecare data cand citeam cel trei elemete puneam intr-un vector de noduri nodurile citite, 
+iar in cazul in care au mai fost adaugate in vector din citirile anterioare nu mai adaugam, la final luam contorul pozieitie pe care se aflau nodurile citite pentru a 
+construi lista de adiacenta asa cum ni s.a dat in laborator, am folosit un vector de vizitati pe care l.am initializat cu zero
+pentru a clcula componentele conexe, pentru a calcula componentele conexe am parcur toate nodurile din graf, iar in cazul in care nu intalneam un nod vizitat il parcurgeam in 
+adancime, marcam de fiecrae data nodul respectiv ca vizitat, daca veinul sau nu a fost vizitat, apelam functia recursiv, si parcurgem in adancime, in cazul in care sunt toate vizitate ne 
+mutam la urmatorul nod, la final afisam numarul de componente conexe, iar apoi in functie de cate componente conexe avem aplicam algoritmul prim
+Al doilea task:
+Am citit informatiile din fieiser, prima data nodurie, muchiile, mai apoi cele doua noduri si costul, iar nodurile le adaugam intr-un vector in cazul in care nu au mai fost
+adaugate din citirele anterioare, iar de fiecare data pastram pozitia corabiei in vector, pe baza vectorului scoteam indexul primului si al doilea nod pentru a crea 
+lista de adiacenta, mai apoi am citit nodurile si adancimile pe care le.am pus in doi vectori separati. pentru acest task am verificat daca este drum de la corabie
+la insula si de la insula la corabie si am afisat mesajul corespunzator facand asta folosind functia o parcurgete dfs, cu ajutorul algoritmului dijkstra  am calculat 
+costul minim de la corabie la insula si am retinut intr-un vector nodurile prin care am trecut pentru a avea costul minim, am fisat nodurile respective iar apoi am 
+afisat costul, pentru fiecare nod am cautat indexul in vectorul de noduri pentru adancimi pentru ca mai apoi sa stiu indexul pe care il avea nodul respectiv in vectorull
+de adancimi, si am afisat adancimea minima, in final am printate drumurile pe care trebuie  sa le faca de la insula la corabie pentru a cara toata comoara
